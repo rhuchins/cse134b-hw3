@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio homepage introducing my background and work.">
+  <title>Homepage | Roshan</title>
+  <link rel="icon" href="data:,">
+  <style>
+    body { border: 1px solid #777; }
+    portfolio-panel { display: block; border: 1px solid #777; }
+  </style>
+  <script>
+    customElements.define("hello-world", class extends HTMLElement {
+      connectedCallback() {
+        console.log("Hello World!");
+      }
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Roshan</h1>
+    <p>Student, researcher, and developer</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="projects.html">Coding Projects</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">CV / Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="experiments.html">Experiments</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section aria-labelledby="welcome-heading">
+      <h2 id="welcome-heading">Welcome to my portfolio</h2>
+      <p>This site has my research(or study groups stuff) projects, etc..</p>
+      <p><strong>What I want to do:</strong> to build useful, thoughtful work through <em>research and programming</em>.</p>
+      <p><a href="projects.html">look at my work</a></p>
+    </section>
+    <section aria-labelledby="about-preview-heading">
+      <h2 id="about-preview-heading">About Me</h2>
+      <article>
+        <h3>picutres and click things</h3>
+        <picture>
+          <img src="https://placehold.co/160x160?text=Photo" alt="Placeholder portrait for Your Name" width="160" height="160">
+        </picture>
+        <p>I am a student interested in problem solving, mathematics, and data analysis, etc. I do other stuff yadda yadda placeholder.</p>
+        <p><b>Current focus:</b> im doing lie algebra stuff</p>
+        <a href="about.html">click this to learn more</a>
+      </article>
+    </section>
+    <portfolio-panel>
+    <section aria-labelledby="featured-heading">
+      <h2 id="featured-heading">Featured work</h2>
+      <ul>
+        <li><a href="research.html">research notes and academic interests</a></li>
+        <li><a href="projects.html">Programming projects</a></li>
+      </ul>
+      <progress value="3" max="5">3 of 5 portfolio sections drafted</progress>
+      <p><span>Portfolio status:</span> something</p>
+    </section>
+    </portfolio-panel>
+    <section aria-labelledby="hello-heading">
+      <h2 id="hello-heading">Custom element example</h2>
+      <p>The custom element below writes “Hello World!” to the browser console when connected.</p>
+      <hello-world></hello-world>
+      <noscript><p>JavaScript is disabled, so the console message will not appear.</p></noscript>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 Roshan | <a href="contact.html">Get in touch</a></p>
+  </footer>
+</body>
+</html>

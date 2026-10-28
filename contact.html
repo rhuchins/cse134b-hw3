@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact information and message form.">
+  <title>Contact | Your Name</title>
+  <link rel="icon" href="data:,">
+  <style>body { border: 1px solid #777; } portfolio-panel { display: block; border: 1px solid #777; }</style>
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <p>Get in touch for whatever.</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="projects.html">Coding Projects</a></li>
+        <li><a href="about.html" aria-current="page">About Me</a></li>
+        <li><a href="resume.html">CV / Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="experiments.html">Experiments</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Dialog element</h2>
+      <p>i did it correctly hopefully</p>
+      <dialog open>
+        <p>I'm that guy, good job myself</p>
+      </dialog>
+    </section>
+    <section>
+      <h2>Send a message</h2>
+      <p>This form goes nowhere, you cant spam me</p>
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Your contact details</legend>
+          <p><label for="name">Name</label><br><input id="name" name="name" type="text" autocomplete="name" required></p>
+          <p><label for="email">Email</label><br><input id="email" name="email" type="email" autocomplete="email" required></p>
+          <p><label for="subject">Subject</label><br><input id="subject" name="subject" type="text"></p>
+          <p><label for="message">Message</label><br><textarea id="message" name="message" rows="6" cols="40" required></textarea></p>
+          <button type="submit">Send message</button>
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <h2>Other ways to reach me</h2>
+      <ul>
+        <li>Email: <a href="mailto:your.email@example.com">thisisanemail.com</a></li>
+        <li>GitHub: <a href="https://github.com/">something github.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/">something linkedin.com</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer><p>© 2026 roshan | <a href="index.html">Return home</a></p></footer>
+</body>
+</html>
