@@ -46,7 +46,8 @@ a:focus, input:focus, button:focus {
     outline: 3px solid dodgerblue;
 }
   
-
+/* These 2 selectors change the exact same thing. Since all else is exact, the cascade that CSS follows uses the tiebreaker 
+    of whichever comes last in the stylesheet as the winner */
 dt { 
     color: darkred; 
 }
