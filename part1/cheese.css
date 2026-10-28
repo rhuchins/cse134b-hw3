@@ -1,1 +1,56 @@
+/* Name: Roshan Jack-Huchins, GITHUB REPO: https://github.com/rhuchins/cse134b-hw3 */
 
+body {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Georgia, serif;
+    color: #333;
+    line-height: 1.5;
+    background: #fffbea;
+}
+  
+h1 { 
+    font-size: 2.4rem; 
+    color: darkgoldenrod; 
+}
+h2 { 
+    font-size: 1.5rem; 
+    color: #a0522d; 
+}
+  
+.latin { 
+    font-style: italic; 
+    color: green; 
+}
+  
+#warning { 
+    background: #ffdcb0; 
+    padding: 10px; 
+}
+  
+blockquote {
+    border: 2px solid #e6c65c;
+    margin: 20px 40px;
+    padding: 10px 20px;
+}
+  
+a { 
+    color: saddlebrown; 
+}
+a:hover { 
+    color: chocolate; 
+}
+  
+a:focus, input:focus, button:focus {
+    outline: 3px solid dodgerblue;
+}
+  
+
+dt { 
+    color: darkred; 
+}
+
+dt {
+    color:aqua;
+}
